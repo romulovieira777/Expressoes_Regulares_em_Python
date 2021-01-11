@@ -5,3 +5,5 @@
 
 
 Link para o curso 100% Gratuito: [Udemy](https://www.udemy.com/course/expressoes-regulares-com-python-3-curso-gratuito/)
+
+### :computer: Comandos em Python que foram usados nos Arquivos acima: :rocket:
