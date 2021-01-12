@@ -40,6 +40,22 @@ findall(r<variável>, <texto>)
 print(re.findall(r'test', string))
 ~~~
 
+**O que faz a função ignorecase:**
+
+Ignora a os caracteres tanto maiúscula como minúscula.
+
+**Sintaxe**
+
+~~~py
+flags=re.IGNORECASE
+~~~
+
+**Exemplo**
+
+~~~py
+print(re.findall(r'jOãO|mAriA', text, flags=re.IGNORECASE))
+~~~
+
 **O que faz a função import:**
 
 É uma linha com o caminho completo para o arquivo python que contem o módulo que se deseja importar.
