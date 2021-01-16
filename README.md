@@ -40,6 +40,24 @@ findall(r<variável>, <texto>)
 print(re.findall(r'test', string))
 ~~~
 
+**O que faz a função for:**
+
+Executa um ciclo para cada elemento do objeto que está sendo iterado.
+
+**Sintaxe**
+
+~~~py
+for <variável> in <objeto iterável>:
+    bloco de instrução
+~~~
+
+**Exemplo**
+
+~~~py
+for numero in range(1, 6):
+    print(numero)
+~~~
+
 **O que faz a função ignorecase:**
 
 Ignora a os caracteres tanto maiúscula como minúscula.
@@ -72,6 +90,22 @@ import <biblioteca>
 import re
 ~~~
 
+**O que faz a função in:**
+
+Verifica se o operando a sua esquerda, está contido na lista a sua direita.
+
+**Sintaxe**
+
+~~~py
+ in (<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+2 and 3 in range(1,6)
+~~~
+
 **O que a faz função print:**
 
 Imprimir um argumento passado na tela.
@@ -86,6 +120,22 @@ print(<variável>)
 
 ~~~py
 print('Olá, Mundo!')
+~~~
+
+**O que a faz função pprint:**
+
+Imprimir um argumento passado na tela.
+
+**Sintaxe**
+
+~~~py
+pprint(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+pprint(tags)
 ~~~
 
 **O que faz a função search:**
