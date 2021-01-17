@@ -40,6 +40,22 @@ re.compile(r<texto>)
 regexp = re.compile(r'test')
 ~~~
 
+**O que faz a função dotall:**
+
+Seleciona as palavras independente se tem quebra de linhas.
+
+**Sintaxe**
+
+~~~py
+flags=re.DOTALL
+~~~
+
+**Exemplo**
+
+~~~py
+print(re.findall(r'^t.*d$', text_02, flags=re.I | re.DOTALL))
+~~~
+
 **O que faz a função findall:**
 
 Encontra todas as ocorrências da palavra procurada no texto.
