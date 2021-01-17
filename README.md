@@ -8,6 +8,22 @@ Link para o curso 100% Gratuito: [Udemy](https://www.udemy.com/course/expressoes
 
 
 ### :computer: Comandos em Python que foram usados nos Arquivos acima: :rocket:
+**O que faz a função ascii:**
+
+Seleciona as palavras com e sem acento.
+
+**Sintaxe**
+
+~~~py
+flags=re.ASCII
+~~~
+
+**Exemplo**
+
+~~~py
+print(re.findall(r'\S+', text, flags=re.ASCII))
+~~~
+
 **O que faz a função compile:**
 
 Copia um texto especificado.
