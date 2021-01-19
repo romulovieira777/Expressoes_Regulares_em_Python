@@ -170,6 +170,22 @@ pprint(<variável>)
 pprint(tags)
 ~~~
 
+**O que a função range faz:**
+
+Permite-nos especificar o início da sequência, o passo, e o valor final.
+
+**Sintaxe**
+
+~~~py
+range(<variável>):
+~~~
+
+**Exemplo**
+
+~~~py
+range(0, 10)
+~~~
+
 **O que faz a função search:**
 
 Encontra a primeira ocorrência da palavra procurada no texto.
