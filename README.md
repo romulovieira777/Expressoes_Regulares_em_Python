@@ -24,6 +24,22 @@ flags=re.ASCII
 print(re.findall(r'\S+', text, flags=re.ASCII))
 ~~~
 
+**O que faz a função bool:**
+
+Converter qualquer valor para um booleano, se o valor puder ser interpretado como um valor verdade ou falso.
+
+**Sintaxe**
+
+~~~py
+bool(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+ return bool(re.search(r'^[+-]?\d+$', string))
+~~~
+
 **O que faz a função compile:**
 
 Copia um texto especificado.
@@ -38,6 +54,46 @@ re.compile(r<texto>)
 
 ~~~py
 regexp = re.compile(r'test')
+~~~
+
+**O que faz a função continue:**
+
+Interrompe a execução do ciclo sem interromper a execução do laço de repetição.
+
+**Sintaxe**
+
+~~~py
+continue
+~~~
+
+**Exemplo**
+
+~~~py
+while True:
+    numero = input('Digite um número: ')
+    if is_int(numero):        
+        numero = int(numero)
+        print(f'O número {numero} foi convertido para int')
+        continue
+
+~~~
+
+**O que faz a função def:**
+
+É para definir uma função que é uma sequência de comandos que executa alguma tarefa e que tem um nome.
+
+**Sintaxe**
+
+~~~py
+def nome(<parâmetros>):
+    comandos:
+~~~
+
+**Exemplo**
+
+~~~py
+def hello(meu_nome):
+    print('Olá',meu_nome)
 ~~~
 
 **O que faz a função dotall:**
@@ -72,6 +128,22 @@ findall(r<variável>, <texto>)
 print(re.findall(r'test', string))
 ~~~
 
+**O que faz a função float:**
+
+Devolve um número de ponto flutuante construído a partir de um número ou string.
+
+**Sintaxe**
+
+~~~py
+float(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+nota1 = float(input("Entre com a primeira nota: "))
+~~~
+
 **O que faz a função for:**
 
 Executa um ciclo para cada elemento do objeto que está sendo iterado.
@@ -88,6 +160,24 @@ for <variável> in <objeto iterável>:
 ~~~py
 for numero in range(1, 6):
     print(numero)
+~~~
+
+**O que faz a função if:**
+
+É uma estrutura de condição que permite avaliar uma expressão e, de acordo com seu resultado, executar uma determinada ação.
+
+**Sintaxe**
+
+~~~py
+if(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+idade = 18
+if idade < 20:
+    print('Você é jovem!')
 ~~~
 
 **O que faz a função ignorecase:**
@@ -138,6 +228,22 @@ Verifica se o operando a sua esquerda, está contido na lista a sua direita.
 2 and 3 in range(1,6)
 ~~~
 
+**O que faz a função input:**
+
+É para entrada de dados feita pelo usuário.
+
+**Sintaxe**
+
+~~~py
+input(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+nome = input('Entre com o nome do aluno: ')
+~~~
+
 **O que a faz função print:**
 
 Imprimir um argumento passado na tela.
@@ -186,6 +292,24 @@ range(<variável>):
 range(0, 10)
 ~~~
 
+**O que a função return faz:**
+
+É utilizada para declarar a informação a ser retornada pela função.
+
+**Sintaxe**
+
+~~~py
+return(<condição>):
+~~~
+
+**Exemplo**
+
+~~~py
+def soma(x,y):
+    num = x * y
+    return num
+~~~
+
 **O que faz a função search:**
 
 Encontra a primeira ocorrência da palavra procurada no texto.
@@ -218,7 +342,24 @@ sub(r<variável>, <texto>, <string>)
 print(re.sub(r'test', 'ABCD', string))
 ~~~
 
+**O que a função while faz:**
 
+Repete a sequência de comandos definida em seu corpo enquanto a <condição> permanece verdadeira.
+
+**Sintaxe**
+
+~~~py
+while(<condição>):
+~~~
+
+**Exemplo**
+
+~~~py
+numero = 1
+while numero < 6:
+    print(numero)
+    numero += 1
+~~~
 
 
 
